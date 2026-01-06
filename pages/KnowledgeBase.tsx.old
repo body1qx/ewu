@@ -1,0 +1,17 @@
+import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
+
+export default function KnowledgeBase() {
+  return (
+    <div className="container py-8">
+      <h1 className="text-4xl font-bold gradient-text mb-8">Knowledge Base</h1>
+      <Card>
+        <CardHeader>
+          <CardTitle>Knowledge Base</CardTitle>
+        </CardHeader>
+        <CardContent>
+          <p className="text-muted-foreground">Knowledge base interface coming soon...</p>
+        </CardContent>
+      </Card>
+    </div>
+  );
+}
