@@ -1,0 +1,710 @@
+{
+  "common": {
+    "loading": "Loading...",
+    "save": "Save",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "edit": "Edit",
+    "create": "Create",
+    "update": "Update",
+    "submit": "Submit",
+    "search": "Search",
+    "filter": "Filter",
+    "close": "Close",
+    "back": "Back",
+    "next": "Next",
+    "previous": "Previous",
+    "confirm": "Confirm",
+    "yes": "Yes",
+    "no": "No",
+    "ok": "OK",
+    "error": "Error",
+    "success": "Success",
+    "warning": "Warning",
+    "info": "Info",
+    "actions": "Actions",
+    "view": "View",
+    "download": "Download",
+    "upload": "Upload",
+    "refresh": "Refresh",
+    "clear": "Clear",
+    "minutes_ago": "minutes ago",
+    "hours_ago": "hours ago",
+    "apply": "Apply",
+    "reset": "Reset",
+    "select": "Select",
+    "all": "All",
+    "none": "None",
+    "new": "NEW"
+  },
+  "nav": {
+    "home": "Home",
+    "announcements": "Announcements",
+    "knowledge_base": "Knowledge Base",
+    "menu_nutrition": "Menu Items",
+    "ai_assistant": "AI Assistant",
+    "tools": "Tools",
+    "files": "Files",
+    "schedules": "Schedules",
+    "annual_leave": "Annual Leave",
+    "food_poisoning": "Food Poisoning",
+    "shift_handover": "Shift Handover",
+    "breaks": "Live Breaks",
+    "profile": "Profile",
+    "notifications": "Notifications",
+    "admin": "Admin Dashboard",
+    "logout": "Logout"
+  },
+  "auth": {
+    "login": {
+      "title": "Welcome Back",
+      "subtitle": "Sign in to your Shawarmer CS Hub account",
+      "email": "Email",
+      "email_placeholder": "Enter your email",
+      "password": "Password",
+      "password_placeholder": "Enter your password",
+      "remember_me": "Remember me",
+      "forgot_password": "Forgot password?",
+      "sign_in": "Sign In",
+      "no_account": "Don't have an account?",
+      "sign_up": "Sign up",
+      "error": "Login failed",
+      "invalid_credentials": "Invalid email or password",
+      "success": "Login successful"
+    },
+    "register": {
+      "title": "Create Account",
+      "subtitle": "Join the Shawarmer CS Hub",
+      "full_name": "Full Name",
+      "full_name_placeholder": "Enter your full name",
+      "email": "Email",
+      "email_placeholder": "Enter your email",
+      "employee_id": "Employee ID",
+      "employee_id_placeholder": "Enter your employee ID",
+      "password": "Password",
+      "password_placeholder": "Create a password",
+      "confirm_password": "Confirm Password",
+      "confirm_password_placeholder": "Confirm your password",
+      "team": "Team",
+      "team_placeholder": "Enter your team name",
+      "position": "Position",
+      "position_placeholder": "Select your position",
+      "sign_up": "Sign Up",
+      "already_have_account": "Already have an account?",
+      "sign_in": "Sign in",
+      "error": "Registration failed",
+      "success": "Registration successful",
+      "password_mismatch": "Passwords do not match",
+      "validation_error": "Please fill in all required fields"
+    },
+    "pending": {
+      "title": "Account Pending Approval",
+      "message": "Your account is currently pending approval by an administrator.",
+      "description": "You will receive an email notification once your account has been approved. This usually takes 1-2 business days.",
+      "contact": "If you have any questions, please contact your supervisor or HR department.",
+      "back_to_login": "Back to Login"
+    },
+    "suspended": {
+      "title": "Account Suspended",
+      "message": "Your account has been suspended.",
+      "description": "Please contact your supervisor or HR department for more information.",
+      "contact_admin": "Contact Administrator",
+      "back_to_login": "Back to Login"
+    }
+  },
+  "home": {
+    "greeting": {
+      "morning": "Good Morning",
+      "afternoon": "Good Afternoon",
+      "evening": "Good Evening"
+    },
+    "welcome": "Welcome",
+    "tagline": "Your premium control center for customer service excellence",
+    "command_center": "Command Center",
+    "command_center_subtitle": "Quick access to your essential tools",
+    "quick_actions": "Quick Actions",
+    "recent_activity": "Recent Activity",
+    "announcements": "Important Announcements",
+    "announcements_subtitle": "Stay updated with the latest news",
+    "view_all": "View All",
+    "no_announcements": "No announcements available",
+    "my_schedule": "My Schedule",
+    "upcoming_events": "Upcoming Events",
+    "knowledge_tools": "Knowledge & Tools",
+    "knowledge_tools_subtitle": "Everything you need at your fingertips",
+    "quick_tip": "Quick Tip",
+    "quick_tip_content": "💡 Use the AI Assistant to generate professional complaint templates in both Arabic and English. It's integrated with Zoho CRM for seamless workflow.",
+    "access_now": "Access Now",
+    "modules": {
+      "knowledge_base": {
+        "title": "Knowledge Base",
+        "description": "Search articles and documentation",
+        "stats": "Quick Access"
+      },
+      "ai_assistant": {
+        "title": "AI Assistant",
+        "description": "Generate professional templates",
+        "stats": "Powered by AI"
+      },
+      "schedule": {
+        "title": "Schedule",
+        "description": "View your work schedule and manage shift planning",
+        "stats": "This Week"
+      },
+      "food_poisoning": {
+        "title": "Food Poisoning Cases",
+        "description": "Investigate and document food poisoning incidents",
+        "stats": "Investigation Forms"
+      },
+      "tools": {
+        "title": "Tools & Resources",
+        "description": "Access CRM and systems",
+        "stats": "All Tools"
+      },
+      "branch_directory": {
+        "title": "Branch Directory",
+        "description": "Complete directory of all Shawarmer locations with details and contact info",
+        "stats": "Quick Access"
+      },
+      "file_hub": {
+        "title": "File Hub",
+        "description": "Browse documents"
+      },
+      "my_profile": {
+        "title": "My Profile",
+        "description": "Account settings"
+      }
+    },
+    "stats": {
+      "total_employees": "Total Employees",
+      "active_users": "Active Users",
+      "pending_requests": "Pending Requests",
+      "announcements": "Announcements"
+    }
+  },
+  "announcements": {
+    "title": "Announcements",
+    "page_title": "Latest Announcements",
+    "page_subtitle": "Stay updated with the latest news and updates",
+    "create": "Create Announcement",
+    "edit": "Edit Announcement",
+    "delete": "Delete Announcement",
+    "view": "View Announcement",
+    "no_announcements": "No announcements found",
+    "search_placeholder": "Search announcements...",
+    "filter_by_priority": "Filter by priority",
+    "filter_by_writer": "Filter by writer",
+    "all_priorities": "All Priorities",
+    "all_writers": "All Writers",
+    "high_priority": "High Priority",
+    "normal_priority": "Normal Priority",
+    "low_priority": "Low Priority",
+    "read_more": "Read More",
+    "unknown_writer": "Unknown",
+    "loading": "Loading announcements...",
+    "priority": {
+      "high": "High",
+      "normal": "Normal",
+      "low": "Low"
+    },
+    "status": {
+      "draft": "Draft",
+      "published": "Published"
+    },
+    "fields": {
+      "title": "Title",
+      "title_placeholder": "Enter announcement title",
+      "message": "Message",
+      "message_placeholder": "Enter announcement message",
+      "content": "Content",
+      "content_placeholder": "Enter detailed content",
+      "priority": "Priority",
+      "status": "Status",
+      "banner_image": "Banner Image",
+      "scheduled_date": "Scheduled Date",
+      "created_by": "Created By",
+      "created_at": "Created At",
+      "updated_at": "Updated At"
+    },
+    "actions": {
+      "publish": "Publish",
+      "unpublish": "Unpublish",
+      "save_draft": "Save as Draft"
+    },
+    "messages": {
+      "create_success": "Announcement created successfully",
+      "update_success": "Announcement updated successfully",
+      "delete_success": "Announcement deleted successfully",
+      "publish_success": "Announcement published successfully",
+      "load_error": "Failed to load announcements",
+      "error": "An error occurred"
+    }
+  },
+  "knowledge_base": {
+    "title": "Knowledge Base",
+    "page_title": "Knowledge Base",
+    "page_subtitle": "Everything your team needs to know, all in one place",
+    "search_placeholder": "Search for branches, menu items, policies...",
+    "search_placeholder_short": "Search articles...",
+    "searching": "Searching...",
+    "no_results": "No articles found matching",
+    "no_categories": "No categories available yet.",
+    "no_description": "No description available",
+    "categories": "Categories",
+    "all_categories": "All Categories",
+    "no_articles": "No articles found",
+    "create_article": "Create Article",
+    "new_article": "New Article",
+    "edit_article": "Edit Article",
+    "delete_article": "Delete Article",
+    "create_category": "Create Category",
+    "create_first_category": "Create First Category",
+    "edit_category": "Edit Category",
+    "delete_category": "Delete Category",
+    "manage_categories": "Manage Categories",
+    "loading": "Loading...",
+    "fields": {
+      "title": "Title",
+      "title_placeholder": "Enter article title",
+      "content": "Content",
+      "content_placeholder": "Enter article content",
+      "category": "Category",
+      "category_placeholder": "Select a category",
+      "tags": "Tags",
+      "tags_placeholder": "Enter tags (comma separated)",
+      "is_published": "Published",
+      "created_by": "Created By",
+      "created_at": "Created At",
+      "updated_at": "Updated At"
+    },
+    "messages": {
+      "create_success": "Article created successfully",
+      "update_success": "Article updated successfully",
+      "delete_success": "Article deleted successfully",
+      "load_error": "Failed to load knowledge base categories",
+      "error": "An error occurred"
+    }
+  },
+  "ai_assistant": {
+    "title": "AI Assistant",
+    "subtitle": "Ask me anything about Shawarmer policies, procedures, or general questions",
+    "input_placeholder": "Type your question here...",
+    "send": "Send",
+    "clear_chat": "Clear Chat",
+    "thinking": "Thinking...",
+    "error": "Failed to get response",
+    "no_messages": "No messages yet. Start a conversation!",
+    "welcome_message": "Hello! I'm your AI assistant. How can I help you today?",
+    "suggestions": {
+      "title": "Suggested Questions",
+      "policy": "What is the leave policy?",
+      "schedule": "How do I request a schedule change?",
+      "benefits": "What are the employee benefits?"
+    }
+  },
+  "tools": {
+    "title": "Tools Hub",
+    "subtitle": "Access various tools and utilities",
+    "no_tools": "No tools available",
+    "food_poisoning": {
+      "title": "Food Poisoning Cases",
+      "description": "Report and track food poisoning incidents",
+      "view": "View Cases"
+    }
+  },
+  "files": {
+    "title": "Files Hub",
+    "subtitle": "Manage and share files",
+    "upload": "Upload File",
+    "no_files": "No files available",
+    "file_name": "File Name",
+    "file_size": "File Size",
+    "uploaded_by": "Uploaded By",
+    "uploaded_at": "Uploaded At",
+    "download": "Download",
+    "delete": "Delete",
+    "messages": {
+      "upload_success": "File uploaded successfully",
+      "delete_success": "File deleted successfully",
+      "error": "An error occurred"
+    }
+  },
+  "schedules": {
+    "title": "My Schedule",
+    "team_schedule": "Team Schedule",
+    "create": "Create Schedule",
+    "edit": "Edit Schedule",
+    "delete": "Delete Schedule",
+    "no_schedules": "No schedules available",
+    "week_view": "Week View",
+    "month_view": "Month View",
+    "today": "Today",
+    "status": {
+      "working": "Working",
+      "off": "Off",
+      "work_from_home": "Work From Home",
+      "annual_vacation_regular": "Annual Vacation (Regular)",
+      "annual_vacation_normal": "Annual Vacation (Normal)",
+      "annual_vacation_emergency": "Annual Vacation (Emergency)",
+      "public_holiday": "Public Holiday",
+      "exam_leave": "Exam Leave",
+      "sick_day": "Sick Day"
+    },
+    "fields": {
+      "date": "Date",
+      "status": "Status",
+      "notes": "Notes",
+      "notes_placeholder": "Add notes (optional)"
+    },
+    "leave_request": {
+      "title": "Leave Request",
+      "request": "Request Leave",
+      "start_date": "Start Date",
+      "end_date": "End Date",
+      "leave_type": "Leave Type",
+      "reason": "Reason",
+      "reason_placeholder": "Enter reason for leave",
+      "submit": "Submit Request",
+      "cancel": "Cancel Request",
+      "pending": "Pending",
+      "approved": "Approved",
+      "rejected": "Rejected",
+      "cancelled": "Cancelled"
+    },
+    "messages": {
+      "create_success": "Schedule created successfully",
+      "update_success": "Schedule updated successfully",
+      "delete_success": "Schedule deleted successfully",
+      "request_success": "Leave request submitted successfully",
+      "error": "An error occurred"
+    }
+  },
+  "profile": {
+    "title": "Profile",
+    "personal_info": "Personal Information",
+    "work_info": "Work Information",
+    "account_preferences": "Account Preferences",
+    "edit_profile": "Edit Profile",
+    "save_changes": "Save Changes",
+    "cancel_edit": "Cancel",
+    "fields": {
+      "full_name": "Full Name",
+      "email": "Email",
+      "employee_id": "Employee ID",
+      "team": "Team",
+      "position": "Position",
+      "role": "Role",
+      "status": "Status",
+      "join_date": "Join Date",
+      "last_login": "Last Login",
+      "avatar": "Profile Picture",
+      "change_avatar": "Change Avatar"
+    },
+    "preferences": {
+      "theme": "Theme",
+      "theme_light": "Light",
+      "theme_dark": "Dark",
+      "theme_system": "System",
+      "language": "Language",
+      "language_en": "English",
+      "language_ar": "العربية",
+      "notifications": "Notifications",
+      "email_notifications": "Email Notifications",
+      "in_app_notifications": "In-App Notifications"
+    },
+    "avatar": {
+      "upload": "Upload Avatar",
+      "change": "Change Avatar",
+      "remove": "Remove Avatar",
+      "select_file": "Select File",
+      "drag_drop": "Drag and drop an image here, or click to select",
+      "file_requirements": "PNG, JPG or WebP (max 1MB)",
+      "uploading": "Uploading...",
+      "compressing": "Compressing image...",
+      "success": "Avatar updated successfully",
+      "error": "Failed to upload avatar",
+      "position_control": {
+        "title": "Adjust Image Position",
+        "zoom": "Zoom",
+        "reset": "Reset Position",
+        "drag_to_reposition": "Drag to reposition",
+        "preview": "Preview"
+      }
+    },
+    "messages": {
+      "update_success": "Profile updated successfully",
+      "update_error": "Failed to update profile",
+      "validation_error": "Please fill in all required fields"
+    }
+  },
+  "notifications": {
+    "title": "Notifications",
+    "mark_all_read": "Mark All as Read",
+    "no_notifications": "No notifications",
+    "new_announcement": "New Announcement",
+    "new_announcement_published": "A new announcement has been published",
+    "view_announcement": "View Announcement",
+    "types": {
+      "system": "System",
+      "announcement": "Announcement",
+      "file": "File",
+      "admin": "Admin",
+      "status": "Status",
+      "shift_handover": "Shift Handover"
+    },
+    "messages": {
+      "mark_read_success": "Notification marked as read",
+      "mark_all_read_success": "All notifications marked as read",
+      "error": "An error occurred"
+    }
+  },
+  "shift_handover": {
+    "title": "Shift Handover",
+    "new_note": "New Shift Note",
+    "create_note": "Create Note",
+    "edit_note": "Edit Note",
+    "delete_note": "Delete Note",
+    "view_all": "View All Notes",
+    "no_notes": "No shift handover notes yet",
+    "new_badge": "New",
+    "shift_types": {
+      "morning": "Morning Shift",
+      "night": "Night Shift",
+      "afternoon": "Afternoon Shift",
+      "general": "General"
+    },
+    "priority": {
+      "normal": "Normal",
+      "high": "High",
+      "urgent": "Urgent"
+    },
+    "form": {
+      "title": "Title",
+      "title_placeholder": "Enter note title",
+      "content": "Content",
+      "content_placeholder": "Describe what happened, actions taken, and follow-up needed...",
+      "shift_type": "Shift Type",
+      "priority": "Priority",
+      "follow_up_required": "Follow-up Required",
+      "tags": "Tags",
+      "tags_placeholder": "Add tags (comma separated)"
+    },
+    "notifications": {
+      "new_shift_note": "New Shift Handover Note",
+      "shift_note_created": "{{creator}} added a new {{shift_type}} shift note",
+      "view_note": "View Note"
+    },
+    "messages": {
+      "create_success": "Shift handover note created successfully",
+      "create_error": "Failed to create shift handover note",
+      "update_success": "Shift handover note updated successfully",
+      "update_error": "Failed to update shift handover note",
+      "delete_success": "Shift handover note deleted successfully",
+      "delete_error": "Failed to delete shift handover note",
+      "validation_error": "Please fill in all required fields"
+    }
+  },
+  "admin": {
+    "title": "Admin Dashboard",
+    "user_management": "User Management",
+    "system_settings": "System Settings",
+    "reports": "Reports",
+    "users": {
+      "title": "Users",
+      "create": "Create User",
+      "edit": "Edit User",
+      "delete": "Delete User",
+      "approve": "Approve User",
+      "suspend": "Suspend User",
+      "activate": "Activate User",
+      "no_users": "No users found",
+      "fields": {
+        "full_name": "Full Name",
+        "email": "Email",
+        "employee_id": "Employee ID",
+        "role": "Role",
+        "status": "Status",
+        "team": "Team",
+        "position": "Position",
+        "join_date": "Join Date",
+        "last_login": "Last Login"
+      },
+      "roles": {
+        "admin": "Admin",
+        "agent": "Agent",
+        "writer": "Writer",
+        "employee": "Employee"
+      },
+      "statuses": {
+        "active": "Active",
+        "pending": "Pending",
+        "suspended": "Suspended"
+      },
+      "messages": {
+        "approve_success": "User approved successfully",
+        "suspend_success": "User suspended successfully",
+        "activate_success": "User activated successfully",
+        "delete_success": "User deleted successfully",
+        "error": "An error occurred"
+      }
+    },
+    "schedules": {
+      "title": "Schedule Management",
+      "reset_all": "Reset All Schedules",
+      "reset_confirm": "Are you sure you want to reset all schedules? This action cannot be undone.",
+      "messages": {
+        "reset_success": "All schedules reset successfully",
+        "error": "An error occurred"
+      }
+    },
+    "leave_requests": {
+      "title": "Leave Requests",
+      "pending": "Pending Requests",
+      "approved": "Approved Requests",
+      "rejected": "Rejected Requests",
+      "approve": "Approve",
+      "reject": "Reject",
+      "messages": {
+        "approve_success": "Leave request approved",
+        "reject_success": "Leave request rejected",
+        "error": "An error occurred"
+      }
+    }
+  },
+  "food_poisoning": {
+    "title": "Food Poisoning Cases",
+    "create": "Report New Case",
+    "edit": "Edit Case",
+    "delete": "Delete Case",
+    "view": "View Case",
+    "no_cases": "No cases reported",
+    "fields": {
+      "customer_name": "Customer Name",
+      "customer_name_placeholder": "Enter customer name",
+      "customer_phone": "Customer Phone",
+      "customer_phone_placeholder": "Enter customer phone",
+      "order_number": "Order Number",
+      "order_number_placeholder": "Enter order number",
+      "order_date": "Order Date",
+      "symptoms": "Symptoms",
+      "symptoms_placeholder": "Describe symptoms",
+      "hospital_visit": "Hospital Visit",
+      "hospital_name": "Hospital Name",
+      "hospital_name_placeholder": "Enter hospital name",
+      "medical_report": "Medical Report",
+      "notes": "Notes",
+      "notes_placeholder": "Additional notes",
+      "status": "Status",
+      "reported_by": "Reported By",
+      "reported_at": "Reported At"
+    },
+    "statuses": {
+      "investigating": "Investigating",
+      "confirmed": "Confirmed",
+      "resolved": "Resolved",
+      "false_claim": "False Claim"
+    },
+    "messages": {
+      "create_success": "Case reported successfully",
+      "update_success": "Case updated successfully",
+      "delete_success": "Case deleted successfully",
+      "error": "An error occurred"
+    }
+  },
+  "positions": {
+    "crm_agent": "CRM Agent",
+    "crm_quality": "CRM Quality",
+    "crm_team_leader": "CRM Team Leader",
+    "crm_supervisor": "CRM Supervisor",
+    "crm_manager": "CRM Manager"
+  },
+  "errors": {
+    "generic": "An error occurred. Please try again.",
+    "network": "Network error. Please check your connection.",
+    "unauthorized": "You are not authorized to perform this action.",
+    "not_found": "The requested resource was not found.",
+    "validation": "Please check your input and try again.",
+    "server": "Server error. Please try again later."
+  },
+  "validation": {
+    "required": "This field is required",
+    "email": "Please enter a valid email address",
+    "min_length": "Minimum length is {{min}} characters",
+    "max_length": "Maximum length is {{max}} characters",
+    "password_mismatch": "Passwords do not match",
+    "invalid_format": "Invalid format"
+  },
+  "case_notes": {
+    "title": "Customer Case Notes",
+    "subtitle": "Internal case logging and tracking system",
+    "new_case": "New Case",
+    "total_cases": "Total Cases",
+    "open_cases": "Open Cases",
+    "escalated_cases": "Escalated Cases",
+    "closed_cases": "Closed Cases",
+    "no_cases": "No cases found",
+    "no_cases_description": "Start by creating your first case note",
+    "create_first": "Create First Case",
+    "view_details": "View Details",
+    "edit_case": "Edit Case",
+    "attachments": "attachments",
+    "unknown_agent": "Unknown Agent",
+    "loading": "Loading cases...",
+    "load_error": "Failed to load cases",
+    "delete_success": "Case deleted successfully",
+    "delete_error": "Failed to delete case",
+    "case_details": "Case Details",
+    "case_id": "Case ID",
+    "customer_info": "Customer Information",
+    "phone": "Phone",
+    "customer_name": "Customer Name",
+    "issue_category": "Issue Category",
+    "description": "Description",
+    "action_taken": "Action Taken",
+    "timestamps": "Timestamps",
+    "created_at": "Created At",
+    "updated_at": "Updated At",
+    "latest_cases": "Latest Case Notes",
+    "latest_cases_subtitle": "Recently added customer cases by the team",
+    "no_recent_cases": "No recent case notes",
+    "view_all_cases": "View All Cases",
+    "status_open": "Open",
+    "status_pending_tl": "Pending TL",
+    "status_escalated": "Escalated",
+    "status_closed": "Closed",
+    "search_placeholder": "Search by phone, name, category, or description...",
+    "filters": "Filters",
+    "filter_options": "Filter Options",
+    "clear_filters": "Clear Filters",
+    "filter_by_status": "Filter by Status",
+    "filter_by_category": "Filter by Category",
+    "filter_by_date": "Filter by Date",
+    "all_statuses": "All Statuses",
+    "all_categories": "All Categories",
+    "all_dates": "All Dates",
+    "today": "Today",
+    "yesterday": "Yesterday",
+    "last_week": "Last 7 Days",
+    "last_month": "Last 30 Days",
+    "showing_results": "Showing {{count}} of {{total}} cases",
+    "filters_active": "Filters Active",
+    "no_results": "No cases match your search",
+    "no_results_description": "Try adjusting your filters or search terms"
+  },
+  "errors": {
+    "generic": "An error occurred. Please try again.",
+    "network": "Network error. Please check your connection.",
+    "unauthorized": "You are not authorized to perform this action.",
+    "not_found": "The requested resource was not found.",
+    "validation": "Please check your input and try again.",
+    "server": "Server error. Please try again later."
+  },
+  "validation": {
+    "required": "This field is required",
+    "email": "Please enter a valid email address",
+    "min_length": "Minimum length is {{min}} characters",
+    "max_length": "Maximum length is {{max}} characters",
+    "password_mismatch": "Passwords do not match",
+    "invalid_format": "Invalid format"
+  }
+}
